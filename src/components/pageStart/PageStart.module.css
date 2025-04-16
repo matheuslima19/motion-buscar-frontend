@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    width: 100vw;
+}
+
+.loc{
+    margin-left: -3.5vw;
+}
+
+.page-name{
+    margin-top: 5vh;
+    display: flex;
+    align-items: end;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 8.5vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtros{
+    margin-top: 1vh;
+    display: flex;
+    width: 80vw;
+}

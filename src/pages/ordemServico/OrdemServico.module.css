@@ -1,0 +1,177 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Product Sans", sans-serif;
+    font-weight: 600;
+}
+
+
+.botao {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.folha {
+    background-color: #EDEBE7;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 13vh 12vh;
+    gap: 5vh;
+}
+
+.id {
+    display: flex;
+    width: 100%;
+}
+
+.id_tag {
+    display: flex;
+    width: 70%;
+}
+
+.token {
+    display: flex;
+    width: 30%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.infosGerais {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.infos1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.infos2 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.infos3 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 25vh;
+}
+
+.fonte-grande {
+    font-weight: 700;
+    color: #474747;
+    font-size: 5vh;
+}
+
+.fonte-grande1 {
+    font-weight: 700;
+    color: #474747;
+    font-size: 8vh;
+}
+
+.fonte-pequena {
+    font-weight: 400;
+    color: #474747;
+    font-size: 18px;
+}
+
+.fonte-negrito {
+    font-weight: 700;
+    color: #474747;
+    font-size: 20px;
+}
+
+.fonte-media {
+    font-weight: 700;
+    color: #474747;
+    font-size: 27px;
+}
+
+.clienteOficina {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.oficina {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cliente {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+
+.veiculo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+
+.titulo1 {
+    display: flex;
+    width: 100%;
+
+}
+
+.titulos2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.unico {
+    width: 25%;
+    height: 30px;
+}
+
+.linhaRegistro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.produto {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+
+.serviços {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 30vh;
+
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 82vw;
+    flex-wrap: wrap;
+}
+
+.pesquisa{
+    left: 25vw;
+    top: 41.2vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 7vh;
+    background-color: #3B563C;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.no-content{
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    display: none;
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Product-Sans";
+    src: url("../utils/fonts/Product\ Sans\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Product-Sans-bold";
+    src: url("../utils/fonts/Product\ Sans\ Bold.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 00;
+    color: #474747;
+    font-family: "Product-Sans-bold", sans-serif;
+    background-color: #f8f7f4;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+body img {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3B563C;
+    border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3B563C;
+  }
+
+/* verde: #3B563C */

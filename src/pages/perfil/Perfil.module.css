@@ -1,0 +1,153 @@
+.content{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 10vh 0 20vh;
+}
+
+.left-side{
+    height: 70vh;
+    width: 20vw;
+    background-color: #f0efece4;
+    border-radius: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5vh 0;
+}
+.secoes{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 4vh;
+}
+.secoes p{
+    margin: 0;
+    padding: 0;
+    font-family: "Product-sans";
+    font-size: 2.2vh;
+}
+.secoes img{
+    width: 3.2vh;
+}
+.secao{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+    width: 12vw;
+    padding: 2.2vh 1.5vw;
+    border-radius: 4vh;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.secao:hover{
+    background-color: #d8d7d15f;
+}
+
+
+.logo-motion img{
+    height: 2vh;
+}
+
+.right-side{
+    height: 70vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.fotoPerfil{
+    height: 30vh;
+    width: 30vh;
+    background-color: #eceae59e;
+    border-radius: 105px;
+}
+
+.fotoPerfil img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+.form{
+    width: 30vw;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 0.7vw 2vw;
+    width: min-content;
+}
+
+.lapis{
+    position: absolute;
+    right: 17vw;
+    cursor: pointer;
+}
+
+.lapis img{
+    height: 2vh;
+}
+
+.save{
+    display: none;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    background-color: #3B563C;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.save img{
+    height: 2.5vh;
+}
+
+.back-modal{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(33, 32, 32, 0.584);
+    z-index: 999;
+
+}
+
+.modal-senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw;
+    background-color: rgb(204, 202, 202);
+    border-radius: 3vh;
+}
+
+.form-senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.7vw;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}

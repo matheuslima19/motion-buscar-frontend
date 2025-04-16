@@ -1,0 +1,271 @@
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 79vw;
+}
+
+.title h1 {
+    font-size: 9vh;
+    padding: 0;
+    margin: 0;
+}
+
+.redirecionadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+}
+
+.informacoes {
+    width: 79vw;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+}
+
+.left-side {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5vw;
+}
+
+.avaliacao img {
+    width: 2vw;
+}
+
+.avaliacao p {
+    margin: 0;
+    padding: 0;
+    font-family: "Product-Sans";
+    font-size: 2.7vh;
+}
+
+.all-stickers {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.stickers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.loc-ctt {
+    margin-top: 2vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.campo {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.campo p {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vh;
+}
+
+.img-box img {
+    width: 1.4vw;
+}
+
+.img-mock {
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(219, 216, 216);
+    border-radius: 5vh;
+}
+
+.checks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.checks img {
+    width: 4vh;
+}
+
+.checks p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.7vh;
+}
+
+.dias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8vh;
+}
+
+.carrosel {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 9vh;
+}
+
+.carrosel h2 {
+    font-size: 6vh;
+    margin: 0;
+    padding: 0;
+}
+
+.arrows {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding: 0 2vw;
+}
+
+.arrows img {
+    cursor: pointer;
+    width: min-content;
+}
+
+.avaliacoes {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 10vh;
+}
+
+.avaliacoes h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 6vh;
+}
+
+.avaliacoes .left-side {
+    align-items: start;
+}
+
+.cards-avaliacoes {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #F0EFEC;
+    flex-direction: column;
+    height: 67vh;
+    width: 46vw;
+    border-radius: 5vh;
+    padding: 5vh 0;
+    overflow-y: auto;
+    gap: 8vh;
+}
+
+.avaliacoes .right-side,
+.avaliacoes .left-side {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.avaliacoes .right-side {
+    align-items: center;
+    border-radius: 5vh;
+    width: 31vw;
+    height: 72vh;
+    background-color: #F0EFEC;
+    gap: 3vh;
+    padding-top: 5vh;
+}
+
+.avaliacoes .right-side p {
+    margin: 0;
+    padding: 0;
+    font-size: 2.2vh;
+}
+
+.estrelas {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 25vw;
+}
+
+.estrelas img {
+    width: 3vw;
+    ;
+}
+
+.nota {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vh;
+}
+
+.cards-avaliacoes::-webkit-scrollbar {
+    width: 4vw;
+}
+
+.cards-avaliacoes::-webkit-scrollbar-thumb {
+    border: 1.8vw solid #F0EFEC;
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #3B563C;
+}
+.cards-avaliacoes::-webkit-scrollbar-track{
+    background-color: #F0EFEC;
+    border-radius: 7vh;
+}
+
+/* FormImput.module.css */
+.container-textArea {
+    display: flex;
+    gap: 1.2vh;
+    flex-direction: column;
+}
+
+.container-textArea textarea {
+    font-family: "Product-sans";
+    resize: none;
+    height: 22vh;
+    width: 22vw;
+    border-radius: 5vh;
+    padding: 1.5vw;
+    outline: none;
+    border: none;
+    background-color: #e2e2e276;
+}
+
+.container-textArea label {
+    font-size: 2vh;
+}
+

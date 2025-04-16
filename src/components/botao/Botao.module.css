@@ -1,0 +1,41 @@
+.botao{
+    padding: 1.5vh 0;
+    text-decoration: none;
+    border: 3px solid #3B563C;
+    border-radius: 5vh;
+    color: #F1EFE9;
+    cursor: pointer;
+    font-family: "Product-Sans-bold";
+    font-size: 2vh;
+    width: 8vw;
+    transition: .1s;
+}
+
+.botao:hover{
+   transform: scale(1.05);
+}
+
+.botao:active{
+    transform: scale(1);
+}
+
+@media (max-width: 767px){
+    .botao{
+        font-size: 2vh;
+        width: 35vw;
+    }
+}
+
+@media (min-width: 768px){
+    .botao{
+        font-size: 2vh;
+        width: 20vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .botao{
+        font-size: 2vh;
+        width: 10vw;
+    }
+}

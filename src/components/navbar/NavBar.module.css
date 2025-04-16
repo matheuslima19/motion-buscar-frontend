@@ -1,0 +1,116 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 9vh 0;
+}
+
+.menu{
+    width: 29vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu img{
+    transition: .4s;
+    height: 3vh;
+}
+
+.menu span{
+    transition: .2s;
+}
+
+.menu span:hover{
+    filter: grayscale(0);
+    opacity: 1; 
+}
+
+.menu span:active{
+    transform: scale(90%);
+}
+
+.menu span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 6vh;
+    color: #3B563C;
+    cursor: pointer;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    user-select: none;
+}
+
+span.active {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.menu p{
+    margin: 0;
+    padding: 0;
+    font-size: 2vh;
+}
+
+
+
+.logo{
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo img{
+    height: 7vh;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 16.5vw;
+    gap: 0.7vw;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vw;
+}
+
+.fotoPerfil{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    background-color: #f8f7f4;
+}
+
+.fotoPerfil img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.infosPessoais{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infosPessoais p{
+    margin: 0;
+    padding: 0;
+    font-family: "Product-sans";
+    font-size: 2.2vh;
+}
+
+.infosPessoais span{
+    font-size: 2.5vh;
+}
